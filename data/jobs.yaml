@@ -22,7 +22,7 @@
     institution: NASA Ames Research Center
     title: Research Engineer
     dates: May 2009 - Jan 2015
-    description: Lead development of large-scale distributed data processing pipeline to create high-resolution global maps of Mars from satellite imagery. Created full-stack web-based tools for NASA science data visualization, robotic field operations, and public outreach web destinations.
+    description: Lead development of large-scale distributed data processing pipeline to create high-resolution global mosiacs of Mars from satellite imagery. Created full-stack web-based tools for NASA science data visualization, robotic field operations, and public outreach web destinations.
     tools:
         - Django
         - JQuery
@@ -54,7 +54,7 @@
         - GDAL (Geodata Abstraction Layer) Tools
         - Google Earth, Google Maps APIs
         - Several open source GIS applications
-        - Linux VSverver Virtual Machines
+        - Linux VSverver
 
 -
     id: freelance
