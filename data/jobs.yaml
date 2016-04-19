@@ -1,6 +1,30 @@
+- 
+  id: imgops
+  employer: Planet Labs
+  title: Senior Software Engineer, Imaging Operations
+  dates: Mar 2016 -
+  description: Development activities in support of image quality metrics and camera operation. Operationalizing image metrics code, coordinate resources and priorities among diverse subsystem teams. Metrics data visualization.
+  tools:
+  - Python
+  - React
+  - D3
+  - Matlab
+  - Jira
+
+- 
+    id: mfgtools
+    employer: Planet Labs
+    title: Lead Software Engineer, Manufacturing Tools
+    dates: Feb 2014 - Mar 2016
+    description: Built and managed a team of five engineers responsible for software tooling to support spacecraft integration testing. Projects included a data service to store test results, a task runner & UI to execute tests, development of the test scripts themselves, and operation of the testing line. Maintenence of legacy tooling and spacecraft subsystem interface libraries. Coordination with other engineering teams.
+    tools:
+      - Python
+      - Flask
+      - React
+      - Ansible
 -   
     id: CNC 
-    employer: CNC Lab
+    employer: Deisseroth CNC Lab
     institution: Stanford University
     title: Computational Research Engineer 
     dates: 2013 - 2014
