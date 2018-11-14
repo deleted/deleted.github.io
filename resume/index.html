@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-        <style>
-            body {
+
+<head>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <style>
+        body {
                 font&#45;family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
                 margin-left: 20px;
                 font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -38,36 +39,66 @@
             ul {
                 list-style-type: square;
             }
+            
+            @media print {
+              .job {
+                  page-break-inside: avoid;
+              }
+            }
 
         </style>
-    </head>
-    <body>
-        <div class="wrapper">
-            <header id="head">
-                <h1>Ted Scharff         <div id="contact_info">ted.scharff@gmail.com <br/> 646.522.4064</div></h1>
+</head>
 
-                <h2>Full-Stack Web Application and Data Systems Engineering</h2>
-                <!-- <p>A <a href="http://www.dungeonsanddevelopers.com/#_a2b2cde3fghi2jklm2n2opqrstuvx2yz_15_Tedward">Level 34</a>Web Developer</p> -->
+<body>
+    <div class="wrapper">
+        <header id="head">
+            <h1>Ted Scharff <div id="contact_info">ted.scharff@gmail.com <br /> 646.522.4064</div>
+            </h1>
 
-                <hr />
-            </header>
+            <h2>Full-Stack Web Application and Data Systems Engineering</h2>
+            <!-- <p>A <a href="http://www.dungeonsanddevelopers.com/#_a2b2cde3fghi2jklm2n2opqrstuvx2yz_15_Tedward">Level 34</a>Web Developer</p> -->
 
-            <section id="details">
+            <hr />
+        </header>
 
-                <h2>Languages</h2>
+        <section id="details">
 
-                <p>Fluent in Python, Javascript, bash/zsh, HTML &amp; CSS, SQL. 
-                Experience in Matlab, C, Ruby, Perl, TCL/Tk.
-                Some familiarity with C++, Java, R, Scheme.</p>
+            <h2>Languages</h2>
 
-                <h2>Experience</h2>
+            <p>Fluent in Python, Javascript, Java, bash/zsh, HTML &amp; CSS, SQL.
+                Experience in Go, C, Ruby, Perl, Matlab.
+                Some familiarity with C++, R, Scheme.</p>
 
-                
-                <div class="job" id="imgops">
-                    <p><strong>Planet Labs</strong><br/>
+            <h2>Experience</h2>
+
+            
+            <div class="job" id="3scan">
+                <p><strong>3Scan</strong><br />
+                    <em>Team Lead, Imaging Software</em>
+                    <span class="dates">Nov 2017 -</span>
+                    <br />
+                    Responsible for development and maintenence of imaging and motion control automation software for a fleet of robotic microscopes. Managing cross-deparment priorities and coordinating with other engineering teams. Operational responsibilities including performance monitoring & tuning.
+
+                    
+                    <ul class="tools">
+                        
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>GRPC</li>
+                        <li>Ansible</li>
+                        <li>Docker</li>
+                        <li>Prometheus</li>
+                        <li>AWS</li>
+                    </ul>
+                    
+                </p>
+            </div>
+            
+            <div class="job" id="imgops">
+                <p><strong>Planet Labs</strong><br />
                     <em>Senior Software Engineer, Imaging Operations</em>
-                    <span class="dates">Feb 2016 -</span>
-                    <br/>
+                    <span class="dates">Feb 2016 - Oct 2017</span>
+                    <br />
                     Development activities in support of image quality metrics and camera operation. Operationalizing image quality metrics code, coordinate resources and priorities among diverse subsystem teams. Metrics data visualization.
 
                     
@@ -83,14 +114,14 @@
                         <li>Jira</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="mfgtools">
-                    <p><strong>Planet Labs</strong><br/>
+                </p>
+            </div>
+            
+            <div class="job" id="mfgtools">
+                <p><strong>Planet Labs</strong><br />
                     <em>Lead Software Engineer, Manufacturing Tools</em>
                     <span class="dates">Feb 2014 - Feb 2016</span>
-                    <br/>
+                    <br />
                     Built and managed a team of five engineers responsible for software tooling to support spacecraft integration testing. Projects included a data service to store test results, a task runner & UI to execute tests, development of the test scripts themselves, and operation of the testing line. Maintenence of legacy tooling and spacecraft subsystem interface libraries. Coordination with other engineering teams.
 
                     
@@ -102,14 +133,14 @@
                         <li>Ansible</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="CNC">
-                    <p><strong>Deisseroth CNC Lab</strong>, Stanford University<br/>
+                </p>
+            </div>
+            
+            <div class="job" id="CNC">
+                <p><strong>Deisseroth CNC Lab</strong>, Stanford University<br />
                     <em>Computational Research Engineer</em>
                     <span class="dates">2013 - 2014</span>
-                    <br/>
+                    <br />
                     Development of large-scale parallel image processing pipeline in Python/NumPy on EC2 that automatically scales with demand. Web-based monitoring tools using Flask and Redis. Interactive data displays.
 
                     
@@ -126,14 +157,14 @@
                         <li>MediaWiki</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="IRG">
-                    <p><strong>Intelligent Robotics Group</strong>, NASA Ames Research Center<br/>
+                </p>
+            </div>
+            
+            <div class="job" id="IRG">
+                <p><strong>Intelligent Robotics Group</strong>, NASA Ames Research Center<br />
                     <em>Research Engineer</em>
                     <span class="dates">May 2009 - Jan 2015</span>
-                    <br/>
+                    <br />
                     Lead development of large-scale distributed data processing pipeline to create high-resolution global mosiacs of Mars from satellite imagery. Created full-stack web-based tools for NASA science data visualization, robotic field operations, and public outreach web destinations.
 
                     
@@ -155,14 +186,14 @@
                         <li>Varnish</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="urbanmapping">
-                    <p><strong>Urban Mapping Inc</strong><br/>
+                </p>
+            </div>
+            
+            <div class="job" id="urbanmapping">
+                <p><strong>Urban Mapping Inc</strong><br />
                     <em>Engineer / Project Manager</em>
                     <span class="dates">Aug 2006 - Mar 2009</span>
-                    <br/>
+                    <br />
                     Built custom web-based tools for geographic data collection and analysis against a PostGIS database. Implemented RESTful geospatial data services. Managed data collection & research team. Maintained public web sites. System and network administration, project management, and customer technical service.
 
                     
@@ -179,14 +210,14 @@
                         <li>Linux VSverver</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="freelance">
-                    <p><strong>Contractor</strong><br/>
+                </p>
+            </div>
+            
+            <div class="job" id="freelance">
+                <p><strong>Contractor</strong><br />
                     <em>Web Developer</em>
                     <span class="dates">Dec 2005 - Aug 2006</span>
-                    <br/>
+                    <br />
                     Various short-term contracts.
 
                     
@@ -199,14 +230,14 @@
                         <li>DotNetNuke</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="yale">
-                    <p><strong>Yale School of Medicine</strong><br/>
+                </p>
+            </div>
+            
+            <div class="job" id="yale">
+                <p><strong>Yale School of Medicine</strong><br />
                     <em>Research Assistant</em>
                     <span class="dates">Oct 2004 - Nov 2005</span>
-                    <br/>
+                    <br />
                     Responsible for various aspects of data collection, analysis and storage related to an MR Spectroscopy / intracranial EEG research project. Built an interface to an experimental visualization toolset (Bioimaging Suite). Design and management of databases. Programming in TCL, Perl, and Matlab. Coordinated with domain experts.
 
                     
@@ -218,77 +249,78 @@
                         <li>ImageJ</li>
                     </ul>
                     
-                    </p>
-                </div>
-                
-                <div class="job" id="cravath">
-                    <p><strong>Cravath, Swaine, and Moore L.L.P.</strong><br/>
+                </p>
+            </div>
+            
+            <div class="job" id="cravath">
+                <p><strong>Cravath, Swaine, and Moore L.L.P.</strong><br />
                     <em>Technical Analyst</em>
                     <span class="dates">Aug 2003 - Jul 2004</span>
-                    <br/>
+                    <br />
                     Built and maintained keyword-searchable document databases for litigation attorneys and paralegals. Assembled data for electronic evidence production. Diagnosed and resolved problems with existing databases. Built software tools as needed for these purposes. Responsible for purchase, installation, and user policy for a high-volume production document scanning system.
 
                     
-                    </p>
-                </div>
-                
+                </p>
+            </div>
+            
 
-                <h2>Education</h2>
+            <h2>Education</h2>
 
-                <p>Columbia University, New York, 1998&#45;2002<br/>
-                BA Cognitive Psychology.<br/>
+            <p>Columbia University, New York, 1998&#45;2002<br />
+                BA Cognitive Psychology.<br />
                 Additional coursework in Computer Science.</p>
 
-            </section>
+        </section>
 
-            
-            <section id="interests">
-                <h2>Hobbies and other Interests</h2>
-                <ul>
-                    
-                    <li>Rock Climbing</li>
-                    
-                    <li>Adventure Cycling</li>
-                    
-                    <li>Bicycle and Motorcyle Maintenence</li>
-                    
-                    <li>Electronic Music Production</li>
-                    
-                    <li>Microcontrollers & electronics prototyping</li>
-                    
-                    <li>Amateur Radio (General class license)</li>
-                    
-                    <li>Metal fabrication</li>
-                    
-                </ul>
-            </section>
-            
+        
+        <section id="interests">
+            <h2>Hobbies and other Interests</h2>
+            <ul>
+                
+                <li>Adventure Cycling</li>
+                
+                <li>Bicycle and Motorcyle Maintenence</li>
+                
+                <li>Electronic Music Production</li>
+                
+                <li>Microcontrollers & electronics prototyping</li>
+                
+                <li>Amateur Radio (General class license)</li>
+                
+                <li>Metal fabrication</li>
+                
+            </ul>
+        </section>
+        
 
-            
-        </div>
+        
+    </div>
 
 
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-45545911-1', 'deleted.github.io');
-      ga('send', 'pageview');
+        ga('create', 'UA-45545911-1', 'deleted.github.io');
+        ga('send', 'pageview');
 
-      </script>
+    </script>
 
-      <script type="text/javascript">
+    <script type="text/javascript">
         var clicky_site_ids = [100672893];
-        (function() {
-          var s = document.createElement('script');
-          s.type = 'text/javascript';
-          s.async = true;
-          s.src = '//static.getclicky.com/js';
-          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//static.getclicky.com/js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
         })();
-</script>
+    </script>
 
-    </body>
+</body>
+
 </html>

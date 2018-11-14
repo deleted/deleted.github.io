@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-        <style>
-            body {
+
+<head>
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <style>
+        body {
                 font&#45;family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
                 margin-left: 20px;
                 font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -46,34 +47,36 @@
             }
 
         </style>
-    </head>
-    <body>
-        <div class="wrapper">
-            <header id="head">
-                <h1>Ted Scharff         <div id="contact_info">ted.scharff@gmail.com <br/> 646.522.4064</div></h1>
+</head>
 
-                <h2>Full-Stack Web Application and Data Systems Engineering</h2>
-                <!-- <p>A <a href="http://www.dungeonsanddevelopers.com/#_a2b2cde3fghi2jklm2n2opqrstuvx2yz_15_Tedward">Level 34</a>Web Developer</p> -->
+<body>
+    <div class="wrapper">
+        <header id="head">
+            <h1>Ted Scharff <div id="contact_info">ted.scharff@gmail.com <br /> 646.522.4064</div>
+            </h1>
 
-                <hr />
-            </header>
+            <h2>Full-Stack Web Application and Data Systems Engineering</h2>
+            <!-- <p>A <a href="http://www.dungeonsanddevelopers.com/#_a2b2cde3fghi2jklm2n2opqrstuvx2yz_15_Tedward">Level 34</a>Web Developer</p> -->
 
-            <section id="details">
+            <hr />
+        </header>
 
-                <h2>Languages</h2>
+        <section id="details">
 
-                <p>Fluent in Python, Javascript, bash/zsh, HTML &amp; CSS, SQL. 
-                Experience in Matlab, C, Ruby, Perl, TCL/Tk.
-                Some familiarity with C++, Java, R, Scheme.</p>
+            <h2>Languages</h2>
 
-                <h2>Experience</h2>
+            <p>Fluent in Python, Javascript, Java, bash/zsh, HTML &amp; CSS, SQL.
+                Experience in Go, C, Ruby, Perl, Matlab.
+                Some familiarity with C++, R, Scheme.</p>
 
-                {% for job in jobs %}
-                <div class="job" id="{{job.id}}">
-                    <p><strong>{{job.employer}}</strong>{% if job.institution %}, {{job.institution}}{% endif %}<br/>
+            <h2>Experience</h2>
+
+            {% for job in jobs %}
+            <div class="job" id="{{job.id}}">
+                <p><strong>{{job.employer}}</strong>{% if job.institution %}, {{job.institution}}{% endif %}<br />
                     <em>{{job.title}}</em>
                     <span class="dates">{{job.dates}}</span>
-                    <br/>
+                    <br />
                     {{job.description}}
 
                     {% if job.tools %}
@@ -82,63 +85,66 @@
                         <li>{{tool}}</li>{% endfor %}
                     </ul>
                     {% endif %}
-                    </p>
-                </div>
-                {% endfor %}
+                </p>
+            </div>
+            {% endfor %}
 
-                <h2>Education</h2>
+            <h2>Education</h2>
 
-                <p>Columbia University, New York, 1998&#45;2002<br/>
-                BA Cognitive Psychology.<br/>
+            <p>Columbia University, New York, 1998&#45;2002<br />
+                BA Cognitive Psychology.<br />
                 Additional coursework in Computer Science.</p>
 
-            </section>
+        </section>
 
-            {% if hobbies %}
-            <section id="interests">
-                <h2>Hobbies and other Interests</h2>
-                <ul>
-                    {% for hobby in hobbies %}
-                    <li>{{hobby}}</li>
-                    {% endfor %}
-                </ul>
-            </section>
-            {% endif  %}
+        {% if hobbies %}
+        <section id="interests">
+            <h2>Hobbies and other Interests</h2>
+            <ul>
+                {% for hobby in hobbies %}
+                <li>{{hobby}}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
 
-            {% if publications %}
-            <section id="publications">
-                <h2>Publications</h2>
-                <ul>
-                    {% for pub in publications %}
-                    <li>{{pub}}</li>
-                    {% endfor %}
-                </ul>
-            </section>
-            {% endif %}
-        </div>
+        {% if publications %}
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                {% for pub in publications %}
+                <li>{{pub}}</li>
+                {% endfor %}
+            </ul>
+        </section>
+        {% endif %}
+    </div>
 
 
-      <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+        (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-45545911-1', 'deleted.github.io');
-      ga('send', 'pageview');
+        ga('create', 'UA-45545911-1', 'deleted.github.io');
+        ga('send', 'pageview');
 
-      </script>
+    </script>
 
-      <script type="text/javascript">
+    <script type="text/javascript">
         var clicky_site_ids = [100672893];
-        (function() {
-          var s = document.createElement('script');
-          s.type = 'text/javascript';
-          s.async = true;
-          s.src = '//static.getclicky.com/js';
-          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+        (function () {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//static.getclicky.com/js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
         })();
-</script>
+    </script>
 
-    </body>
+</body>
+
 </html>

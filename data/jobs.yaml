@@ -1,8 +1,22 @@
 - 
+  id: 3scan
+  employer: 3Scan
+  title: Team Lead, Imaging Software
+  dates: Nov 2017 -
+  description: Responsible for development and maintenence of imaging and motion control automation software for a fleet of robotic microscopes. Managing cross-deparment priorities and coordinating with other engineering teams. Operational responsibilities including performance monitoring & tuning.
+  tools:
+    - Python
+    - Java
+    - GRPC
+    - Ansible
+    - Docker
+    - Prometheus
+    - AWS
+- 
   id: imgops
   employer: Planet Labs
   title: Senior Software Engineer, Imaging Operations
-  dates: Feb 2016 -
+  dates: Feb 2016 - Oct 2017
   description: Development activities in support of image quality metrics and camera operation. Operationalizing image quality metrics code, coordinate resources and priorities among diverse subsystem teams. Metrics data visualization.
   tools:
   - Python
