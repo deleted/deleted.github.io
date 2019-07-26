@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os, sys
 from  jinja2 import Environment, FileSystemLoader
 import yaml
@@ -7,7 +7,7 @@ cwd = os.getcwd()
 jobs_data_filename = os.path.join(cwd, 'data/jobs.yaml')
 hobbies_filename = os.path.join(cwd, 'data/hobbies.yaml')
 resume_outfile_name = 'resume/index.html'
-do_cv = True
+do_cv = False
 if do_cv:
     cv_outfile_name = 'resume/cv.html'
 
@@ -24,11 +24,11 @@ template = env.get_template("resume.html")
 output = template.render(
             jobs=jobs,
             hobbies=hobbies,
-        ).encode('utf8')
+        )
 
 with open(resume_outfile_name, 'w') as resume_file:
     resume_file.write(output)
-print "Wrote to %s" % resume_outfile_name
+print("Wrote to %s" % resume_outfile_name)
 
 if do_cv:
     output = template.render(
@@ -37,4 +37,4 @@ if do_cv:
         ).encode('utf8')
     with open(cv_outfile_name, 'w') as cvfile:
         cvfile.write(output)
-    print "Wrote to %s" % cv_outfile_name
+    print("Wrote to %s" % cv_outfile_name)
