@@ -3,7 +3,7 @@
   employer: 3Scan
   title: Team Lead, Imaging Software
   dates: Nov 2017 -
-  description: Responsible for development and maintenence of imaging and motion control automation software for a fleet of robotic microscopes. Managing cross-deparment priorities and coordinating with other engineering teams. Operational responsibilities including performance monitoring & tuning. Telemetry visualization.
+  description: Responsible for development and maintenence of imaging and motion control automation software for a fleet of robotic microscopes. Managing cross-deparment priorities and coordinating with other engineering teams. Operational responsibilities including performance monitoring & tuning. Telemetry visualization. Operator user interfaces.
   tools:
     - Python
     - Java
