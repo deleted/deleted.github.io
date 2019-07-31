@@ -17,7 +17,7 @@
   employer: Planet Labs
   title: Senior Software Engineer, Imaging Operations
   dates: Feb 2016 - Oct 2017
-  description: Development activities in support of image quality metrics and camera operation. Operationalizing image quality metrics code, coordinate resources and priorities among diverse subsystem teams. Metrics data visualization.
+  description: Development activities in support of image quality metrics and camera operation. Implemented operational image quality metrics. Data visualization. Developed in-house image browser with metadata display features. Coordinated resources and priorities among various subsystem teams.
   tools:
   - Python
   - React
@@ -111,6 +111,7 @@
         - DotNetNuke
 -
     id: yale
+    too_old: true
     employer: Yale School of Medicine
     title: Research Assistant
     dates: Oct 2004 - Nov 2005
@@ -122,6 +123,7 @@
         - ImageJ
 -
     id: cravath
+    too_old: true
     employer: Cravath, Swaine, and Moore L.L.P.
     title: Technical Analyst
     dates: Aug 2003 - Jul 2004 

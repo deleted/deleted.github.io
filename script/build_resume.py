@@ -14,6 +14,7 @@ if do_cv:
 
 with open(jobs_data_filename) as jobsfile:
     jobs = yaml.load(jobsfile.read())
+jobs = [j for j in jobs if not j.get('too_old', False)]
 
 with open(hobbies_filename) as hobbiesfile:
     hobbies = yaml.load(hobbiesfile.read())
